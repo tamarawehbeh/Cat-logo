@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+     header{
+        background-color: rgb(160, 124, 194);
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    header > h2{
+        color: white;
+        font-family: var(--fonte destaque);
+        text-align: cente r;
+        font-size: 50px;
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    li{
+        display: inline;
+        
+    }
+
+    a{
+        text-decoration: none;
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    div{
+        margin-bottom: 10px;
+    }
+
+    form{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+</style>
+
+</head>
+<body>
+    <header>
+        <h2>Cadastre-se</h2>
+
+        <nav>
+            <ul>
+                <li ><a href="index.html" style="color: white;">Home</a></li>
+                <li><a href="valores.html" style="color: white;">Valores</a></li>
+                <li><a href="cadastro.html" style="color: white;">Cadastro</a>
+            </ul>
+    </nav>
+    </header>
+
+    <form action="https://653048916c756603295e8106.mockapi.io/catalago" autocomplete="off">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="inome">
+        </div>
+        
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="iemail">
+        </div>
+
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="isenha">
+        </div>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+
+</body>
+</html>
